@@ -56,8 +56,9 @@ def play_game():
             break
         while True:
             if player==1:
-                print(player_name,"Your mark is x so input your position",p1_input)
+                
                 p1_input=input("enter your position:--")
+                print(player_name,"Your mark is x so input your position",p1_input)
                 # print(player_name,"Your mark is x so input your position",p1_input)
                 if p1_input in board and board[p1_input]==' ':
                     board[p1_input]='X'
